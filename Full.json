@@ -6,13 +6,13 @@
             "jsonStylesheetType":"nexio"
         },
         "entryPoint":"",
-        "endPoint":["",""],
+        "endPoint":["","","",""],
         "dataset":	[
             {
                 "AR":{
                     "common":{
                         "company":"",
-                        "hostname":"",
+                        "hostName":"",
                         "modelName":"",
                         "machineNo":"",
                         "ROMVersion":"",
