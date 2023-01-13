@@ -22,78 +22,78 @@
                         "time":"",
                         "inputVector":"",
                         "patient":{
-                            "number":"",
+                            "number":,
                             "ID":"",
                             "firstName":"",
                             "middleName":"",
                             "lastName":"",
                             "gender":"",
-                            "age":"",
+                            "age":,
                             "DOB":""
                         },
                         "operator":{
-                            "number":"",
+                            "number":,
                             "ID":""
                         }
                     },
                     "measurement":{
                         "header":{
                             "diopterStep":{
-                                "unit":"",
-                                "value":""
+                                "unit":"D",
+                                "value":
                             },
                             "axisStep":{
-                                "unit":"",
-                                "value":""
+                                "unit":"deg",
+                                "value":
                             },
                             "prismDiopterStep":{
                                 "unit":"",
-                                "value":""
+                                "value":
                             },
                             "prismMode":""
                         },
                         "data":{
                             "R":{
-                                "sphere":"",
-                                "cylinder":"",
-                                "axis":"",
-                                "SE":"",
-                                "ADD":"",
-                                "ADD2":"",
-                                "nearSphere":"",
-                                "nearSphere2":"",
+                                "sphere":,
+                                "cylinder":,
+                                "axis":,
+                                "SE":,
+                                "ADD":,
+                                "ADD2":,
+                                "nearSphere":,
+                                "nearSphere2":,
                                 "vertPrism":{
-                                    "diopter":"",
+                                    "diopter":,
                                     "base":""
                                 },
                                 "horzPrism":{
-                                    "diopter":"",
+                                    "diopter":,
                                     "base":""
                                 },
-                                "PD":""
+                                "PD":
                             },
                             "L":{
-                                "sphere":"",
-                                "cylinder":"",
-                                "axis":"",
-                                "SE":"",
-                                "ADD":"",
-                                "ADD2":"",
-                                "nearSphere":"",
-                                "nearSphere2":"",
+                                "sphere":,
+                                "cylinder":,
+                                "axis":,
+                                "SE":,
+                                "ADD":,
+                                "ADD2":,
+                                "nearSphere":,
+                                "nearSphere2":,
                                 "vertPrism":{
-                                    "diopter":"",
+                                    "diopter":,
                                     "base":""
                                 },
                                 "horzPrism":{
-                                    "diopter":"",
+                                    "diopter":,
                                     "base":""
                                 },
-                                "PD":""
+                                "PD":
                             },
                             "B":{
-                                "PD":"",
-                                "PHDelta":""
+                                "PD":,
+                                "PHDelta":
                             }
                         }
                     }

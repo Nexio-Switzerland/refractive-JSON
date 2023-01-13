@@ -22,70 +22,70 @@
                         "time":"",
                         "inputVector":"",
                         "patient":{
-                            "number":"",
+                            "number":,
                             "ID":"",
                             "firstName":"",
                             "middleName":"",
                             "lastName":"",
                             "gender":"",
-                            "age":"",
+                            "age":,
                             "DOB":""
                         },
                         "operator":{
-                            "number":"",
+                            "number":,
                             "ID":""
                         }
                     },
                     "measurement":{
                         "header":{
                             "diopterStep":{
-                                "unit":"",
-                                "value":""
+                                "unit":"D",
+                                "value":
                             },
                             "axisStep":{
-                                "unit":"",
-                                "value":""
+                                "unit":"deg",
+                                "value":
                             },
                             "nearDistance":{
                                 "unit":"",
-                                "value":""
+                                "value":
                             },
                             "nearDistance2":{
                                 "unit":"",
-                                "value":""
+                                "value":
                             },
                             "VD":{
-                                "unit":"",
-                                "value":""
+                                "unit":"mm",
+                                "value":
                             },
                             "visualAcuityUnit":""
                         },
                         "data":{
                             "R":{
-                                "sphere":"",
-                                "cylinder":"",
-                                "axis":"",
-                                "accommodation":"",
+                                "sphere":,
+                                "cylinder":,
+                                "axis":,
+                                "accommodation":,
                                 "VSC":"",
                                 "VCC":"",
                                 "VSC-N":"",
                                 "VCC-N":"",
                                 "VSC-N2":"",
                                 "VCC-N2":"",
-                                "PD":""
+                                "PD":
                             },
                             "L":{
-                                "sphere":"",
-                                "cylinder":"",
-                                "axis":"",
-                                "accommodation":"",
+                                "sphere":,
+                                "cylinder":,
+                                "axis":,
+                                "accommodation":,
                                 "VSC":"",
                                 "VCC":"",
                                 "VSC-N":"",
                                 "VCC-N":"",
                                 "VSC-N2":"",
                                 "VCC-N2":"",
-                                "PD":""
+                                "PD":
                             },
                             "B":{
                                 "VSC":"",
@@ -94,8 +94,8 @@
                                 "VCC-N":"",
                                 "VSC-N2":"",
                                 "VCC-N2":"",
-                                "PD":"",
-                                "PHDelta":""
+                                "PD":,
+                                "PHDelta":
                             }
                         }
                     }
