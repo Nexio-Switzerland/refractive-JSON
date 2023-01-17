@@ -1,2 +1,2 @@
 # refractive-JSON
-standardized JSON file for inter-device data exchange in ophthalmology
+Standardized JSON file for inter-device data exchange in ophthalmology
