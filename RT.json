@@ -22,17 +22,17 @@
                         "time":"",
                         "inputVector":"",
                         "patient":{
-                            "number":,
+                            "number":null,
                             "ID":"",
                             "firstName":"",
                             "middleName":"",
                             "lastName":"",
                             "gender":"",
-                            "age":,
+                            "age":null,
                             "DOB":""
                         },
                         "operator":{
-                            "number":,
+                            "number":null,
                             "ID":""
                         }
                     },
@@ -40,92 +40,92 @@
                         "header":{
                             "diopterStep":{
                                 "unit":"D",
-                                "value":
+                                "value":null
                             },
                             "axisStep":{
                                 "unit":"deg",
-                                "value":
+                                "value":null
                             },
                             "nearDistance":{
                                 "unit":"",
-                                "value":
+                                "value":null
                             },
                             "nearDistance2":{
                                 "unit":"",
-                                "value":
+                                "value":null
                             },
                             "prismDiopterStep":{
                                 "unit":"",
-                                "value":
+                                "value":null
                             },
                             "prismMode":"",
                             "VD":{
                                 "unit":"mm",
-                                "value":
+                                "value":null
                             },
                             "visualAcuityUnit":""
                         },
                         "data":{
                             "R":{
-                                "sphere":,
-                                "cylinder":,
-                                "axis":,
-                                "ADD":,
-                                "ADD2":,
-                                "nearSphere":,
-                                "nearSphere2":,
+                                "sphere":null,
+                                "cylinder":null,
+                                "axis":null,
+                                "ADD":null,
+                                "ADD2":null,
+                                "nearSphere":null,
+                                "nearSphere2":null,
                                 "vertPrism":{
-                                    "diopter":,
+                                    "diopter":null,
                                     "base":""
                                 },
                                 "horzPrism":{
-                                    "diopter":,
+                                    "diopter":null,
                                     "base":""
                                 },
-                                "accommodation":,
+                                "accommodation":null,
                                 "VSC":"",
                                 "VCC":"",
                                 "VSC-N":"",
                                 "VCC-N":"",
                                 "VSC-N2":"",
                                 "VCC-N2":"",
-                                "PD":
+                                "PD":null
                             },
                             "L":{
-                                "sphere":,
-                                "cylinder":,
-                                "axis":,
-                                "ADD":,
-                                "ADD2":,
-                                "nearSphere":,
-                                "nearSphere2":,
+                                "sphere":null,
+                                "cylinder":null,
+                                "axis":null,
+                                "ADD":null,
+                                "ADD2":null,
+                                "nearSphere":null,
+                                "nearSphere2":null,
                                 "vertPrism":{
-                                    "diopter":,
+                                    "diopter":null,
                                     "base":""
                                 },
                                 "horzPrism":{
-                                    "diopter":,
+                                    "diopter":null,
                                     "base":""
                                 },
-                                "accommodation":,
+                                "accommodation":null,
                                 "VSC":"",
                                 "VCC":"",
                                 "VSC-N":"",
                                 "VCC-N":"",
                                 "VSC-N2":"",
                                 "VCC-N2":"",
-                                "PD":
+                                "PD":null
                             },
                             "B":{
                                 "divergence":{
-                                    "blurPoint":,
-                                    "breakPoint":,
-                                    "recoveryPoint":
+                                    "blurPoint":null,
+                                    "breakPoint":null,
+                                    "recoveryPoint":null
                                 },
                                 "convergence":{
-                                    "blurPoint":,
-                                    "breakPoint":,
-                                    "recoveryPoint":
+                                    "blurPoint":null,
+                                    "breakPoint":null,
+                                    "recoveryPoint":null
                                 },
                                 "NRA":"",
                                 "PRA":"",
@@ -135,8 +135,8 @@
                                 "VCC-N":"",
                                 "VSC-N2":"",
                                 "VCC-N2":"",
-                                "PD":,
-                                "PHDelta":
+                                "PD":null,
+                                "PHDelta":null
                             }
                         }
                     }
