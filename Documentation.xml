@@ -1,0 +1,2568 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Microsoft Office User</Author>
+  <LastAuthor>Kevin Zimmermann</LastAuthor>
+  <Created>2022-09-28T14:16:15Z</Created>
+  <LastSaved>2023-02-02T20:09:06Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <SupBook>
+   <Startup>/Users/kevinzimmermann/Library/Group Containers/UBF8T346G9.Office/User Content.localized/Startup.localized/Excel/SaveAsAdobePDF.xlam</Startup>
+   <SheetName>Sheet1</SheetName>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>0</SheetIndex>
+   </Xct>
+  </SupBook>
+  <WindowHeight>17640</WindowHeight>
+  <WindowWidth>30240</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>760</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16">
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s17">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior ss:Color="#D9D9D9" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s18">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior ss:Color="#D9D9D9" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s19">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior ss:Color="#D9D9D9" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="0"/>
+  </Style>
+  <Style ss:ID="s20">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#D9D9D9" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s21">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior ss:Color="#D9D9D9" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Fixed"/>
+  </Style>
+  <Style ss:ID="s22">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior ss:Color="#D9D9D9" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s23">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#D9D9D9" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s24">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#AEAAAA" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s25">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#E7E6E6" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s26">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#E7E6E6" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s27">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior ss:Color="#D9D9D9" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s28">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s29">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s30">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior ss:Color="#D9D9D9" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s31">
+   <Interior ss:Color="#AEAAAA" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s32">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#D9D9D9" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s33">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s34">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior ss:Color="#D9D9D9" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s35">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior ss:Color="#D9D9D9" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s36">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#D9D9D9" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s40">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#AEAAAA" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s41">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s42">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Feuil1">
+  <Table ss:ExpandedColumnCount="17" ss:ExpandedRowCount="410" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s16" ss:DefaultColumnWidth="65"
+   ss:DefaultRowHeight="16">
+   <Column ss:StyleID="s16" ss:AutoFitWidth="0" ss:Width="11" ss:Span="6"/>
+   <Column ss:Index="8" ss:StyleID="s16" ss:AutoFitWidth="0" ss:Width="117"/>
+   <Column ss:StyleID="s16" ss:Width="239"/>
+   <Column ss:StyleID="s16" ss:Width="54" ss:Span="1"/>
+   <Column ss:Index="12" ss:StyleID="s16" ss:Width="169"/>
+   <Column ss:StyleID="s16" ss:AutoFitWidth="0" ss:Width="370"/>
+   <Row>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Tag name</Data></Cell>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Description</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Data type</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Necessity</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Example</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Comment</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">{</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">nx-data:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">header:{</Data></Cell>
+    <Cell ss:Index="14" ss:StyleID="s24"><Data ss:Type="String">Sign in “Necessity” field</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s40"><Data ss:Type="String">Meaning</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3"><Data ss:Type="String">jsonVersion:0.1.4,</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Json file version</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">O</Data></Cell>
+    <Cell ss:Index="14" ss:StyleID="s25"><Data ss:Type="String">O</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Tags and values are necessary.</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3"><Data ss:Type="String">encoding:UTF-8,</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Json encoding</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">O</Data></Cell>
+    <Cell ss:Index="14" ss:StyleID="s25"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Tags are necessary.</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3"><Data ss:Type="String">jsonStylesheetType:nexio</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">json Stylesheet Type</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">O</Data></Cell>
+   </Row>
+   <Row ss:Index="9">
+    <Cell ss:Index="2"><Data ss:Type="String">entryPoint</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Json entry point</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">O</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">null, com1, api, mqtt, nfc, lora,…</Data></Cell>
+   </Row>
+   <Row ss:Height="34">
+    <Cell ss:Index="2"><Data ss:Type="String">endPoint</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Json end point</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">O</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">null, com1, api, mqtt, nfc, lora,…</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Defines the output path of the json,if data is provided in a transmitted json (LM, AR, CO) it will be overwritten the phoropter settings</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">dataset:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3"><Data ss:Type="String">{</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3"><Data ss:Type="String">AR:{</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">common:{</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="5"><Data ss:Type="String">company</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Company name</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Haag-Streit</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="5"><Data ss:Type="String">hostName</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Hostname</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Box 1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="5"><Data ss:Type="String">modelName</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Model name</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">RT-6100</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="5"><Data ss:Type="String">machineNo</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Serial number</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="5"><Data ss:Type="String">ROMVersion</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Device ROM version</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+   </Row>
+   <Row ss:Height="34">
+    <Cell ss:Index="5"><Data ss:Type="String">sourceToken</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Source Token</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s33"><Data ss:Type="String">allows the filiation of datasets to a unique source for example TonoRef III AR, TONO, PACHY,…</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="5"><Data ss:Type="String">version</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Software Version</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="5"><Data ss:Type="String">date</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Date code (YYYY-MM-DD) ISO 8601 UTC </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">O</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">2022-09-30</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="5"><Data ss:Type="String">time</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Time (H/M/S) ISO 8601 UTC </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">O</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">15/45/10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="5"><Data ss:Type="String">inputVector</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Input Vector</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">RS-232 / SMB-TXT / SMB-XML /EMR ..</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="5"><Data ss:Type="String">patient:{</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Patient</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Patient No.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">integer</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">123456789</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">ID</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Patient ID </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">P123456789012</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">firstName</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Patient’s first name</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Jon</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">middleName</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Patient’s middle name</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Adam</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">lastName</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Patient’s last name</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Smith</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">gender</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Patient’s sex</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Male</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">age</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Patient’s age</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">integer</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">40</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">DOB:</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Patient’s date of birth (YYYY-MM-DD) ISO 8601 UTC </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">1982-09-30</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="5"><Data ss:Type="String">operator:{</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Operator info</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Operator No.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">integer</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">123456789</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">ID:</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Operator ID</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">abcd123456789</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">measurement:{</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="5"><Data ss:Type="String">header:{</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">diopterStep:{</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">unit</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">diopter unit (fixed value)</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">O</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">D</Data></Cell>
+    <Cell><Data ss:Type="String">Fixed value (JSON is always in dioptres) </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">value:</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Diopter unit increment</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">0.5 / 0.25 / 0.125 /…</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">axisStep:{</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">unit</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Cylinder axis unit (fixed value)</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">O</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">deg</Data></Cell>
+    <Cell><Data ss:Type="String">Fixed value (JSON is always in degree) </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">value:</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Cylinder axis unit increment</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">integer</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">nearDistance:{</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Working distance (ADD)</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">unit</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Working distance unitl</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">mm / cm / m / Feet /…</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">value:</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Working distance</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">nearDistance2:{</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Working distance (ADD2)</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">unit</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Working distance unitl</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">mm / cm / m / Feet/…</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">value:</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Working distance</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">VD:{</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">unit</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Vertex distance unit (fixed value)</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">O</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">mm</Data></Cell>
+    <Cell><Data ss:Type="String">Fixed value (JSON is always in mm) </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">value:</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Vertex distance value</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">visualAcuityUnit:</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Visual acuity</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Snellen, Logarithmic, Decimal</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="5"><Data ss:Type="String">data:{</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">R:{</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Right-eye measurement value</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">－</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">sphere</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Spherical power </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">-3.00 /null</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">cylinder</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Cylindrical power</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">-1.00 / null</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">axis</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Cylinder axis </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">180 / null</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">accommodation</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s22"><Data ss:Type="String">Accommodation</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">3.00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">VSC</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">vision without correction</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">VCC</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">vision with correction</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">VSC-N</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">vision without correction near</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">VCC-N</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">vision with correction near</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">VSC-N2</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">vision without correction near 2</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">VCC-N2</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">vision with correction near 2</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">PD:</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Pupillary distance right in mm</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s18"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">30.5</Data></Cell>
+    <Cell><Data ss:Type="String">Values always in mm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">L:{</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Left-eye measurement value (same as right-eye)</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">－</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">sphere</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s18"/>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">cylinder</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s18"/>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">axis</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s18"/>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">accommodation</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s18"/>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">VSC</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s18"/>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">VCC</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s18"/>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">VSC-N</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s18"/>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">VCC-N</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s18"/>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">VSC-N2</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s18"/>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">VCC-N2</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s18"/>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">PD:</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s18"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">B:{</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Binocular measurement value</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">－</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">VSC</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">vision without correction</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">VCC</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">vision with correction</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">VSC-N</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">vision without correction near</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">VCC-N</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">vision with correction near</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">VSC-N2</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">vision without correction near 2</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">VCC-N2</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">vision with correction near 2</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">PD</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Pupillary distance total in mm</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s18"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">60</Data></Cell>
+    <Cell><Data ss:Type="String">Values always in mm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">PHDelta</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Pupillary hight delta</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">2.0</Data></Cell>
+    <Cell><Data ss:Type="String">Thank you for characterising this value and its unit </Data></Cell>
+   </Row>
+   <Row ss:Index="90">
+    <Cell ss:Index="3"><Data ss:Type="String">LM:{</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">common:{</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Same as AR</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="5"><Data ss:Type="String">company</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="5"><Data ss:Type="String">hostname</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="5"><Data ss:Type="String">modelName</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="5"><Data ss:Type="String">machineNo</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="5"><Data ss:Type="String">ROMVersion</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="5"><Data ss:Type="String">sourceToken</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="5"><Data ss:Type="String">version</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="5"><Data ss:Type="String">date</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="5"><Data ss:Type="String">time</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="5"><Data ss:Type="String">inputVector</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="5"><Data ss:Type="String">patient:{</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="6"><Data ss:Type="String">number</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="6"><Data ss:Type="String">ID</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="6"><Data ss:Type="String">firstName</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="6"><Data ss:Type="String">middleName</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="6"><Data ss:Type="String">lastName</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="6"><Data ss:Type="String">gender</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="6"><Data ss:Type="String">age</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="6"><Data ss:Type="String">DOB:</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="5"><Data ss:Type="String">operator:{</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="6"><Data ss:Type="String">number</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="6"><Data ss:Type="String">ID:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">measurement:{</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="5"><Data ss:Type="String">header:{</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">diopterStep:{</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">unit</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">diopter unit (fixed value)</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">O</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">D</Data></Cell>
+    <Cell><Data ss:Type="String">Fixed value (JSON is always in dioptres) </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">value:</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Diopter unit increment</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">0.5 / 0.25 / 0.125 /…</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">axisStep:{</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">unit</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Cylinder axis unit (fixed value)</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">deg</Data></Cell>
+    <Cell><Data ss:Type="String">Fixed value (JSON is always in degree) </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">value:</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Cylinder axis unit increment</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">integer</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">prismDiopterStep:{</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">unit:</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Prism Diopter Step unit</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">pri</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s41"><Data ss:Type="String">We are waiting for the return of Haag-Streit in order to clearly define which units and measurement methods the phoropter must be able to receive and transmit</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">value:</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Prism Diopter Step </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">0.5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">prismMode:</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Prism mesurment Mode</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">UDIO (up, down, in, out)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="5"><Data ss:Type="String">data:{</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">R:{</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">sphere</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Spherical power </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">-3.00 /null</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">cylinder</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Cylindrical power</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">-1.00 / null</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">axis</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Cylinder axis </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">180 / null</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">SE</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Spherical equivalent value </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="Number">-3.5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">ADD</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">1st add power </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">1.00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">ADD2</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">2nd add power </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">1.50</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">nearSphere</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">1st near power </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">-2.00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">nearSphere2</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">2nd near power </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">-1.50</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">VertPrism:{</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8"><Data ss:Type="String">diopter</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Horizontal prism power </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">0.50</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="8"><Data ss:Type="String">base:</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">(base Up and base Down only)</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">U or D</Data></Cell>
+    <Cell><Data ss:Type="String">This field is mandatory if a Horizontal prism power is entered</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">HorzPrism:{</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8"><Data ss:Type="String">diopter</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Vertical prism power ( △ )</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">0.00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="8"><Data ss:Type="String">base:</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">(base in and base out only)</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">I or O</Data></Cell>
+    <Cell><Data ss:Type="String">This field is mandatory if a Vertical prism power is entered</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">PD:</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Pupillary distance right</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">31.5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">L:{</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Left-eye measurement value (same as right-eye)</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">sphere</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Pupillary distance right</Data></Cell>
+    <Cell ss:StyleID="s23"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">double</ss:Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">31.5</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">cylinder</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">axis</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">SE</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">ADD</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">ADD2</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">nearSphere</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">nearSphere2</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">prism</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">prismBase</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">prismX:{</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="8"><Data ss:Type="String">diopter</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="8"><Data ss:Type="String">base:</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">prismY:{</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="8"><Data ss:Type="String">diopter</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="8"><Data ss:Type="String">base:</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">PD:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">B:{</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">PD</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Pupillary distance total</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">63.00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">PHDelta:</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Pupillary hight delta</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">3.5</Data></Cell>
+   </Row>
+   <Row ss:Index="165">
+    <Cell ss:Index="3"><Data ss:Type="String">CO:{</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">common:{</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Same as AR</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="5"><Data ss:Type="String">company</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="5"><Data ss:Type="String">hostname</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="5"><Data ss:Type="String">modelName</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="5"><Data ss:Type="String">machineNo</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="5"><Data ss:Type="String">ROMVersion</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="5"><Data ss:Type="String">sourceToken</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="5"><Data ss:Type="String">version</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="5"><Data ss:Type="String">date</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="5"><Data ss:Type="String">time</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="5"><Data ss:Type="String">inputVector</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="5"><Data ss:Type="String">patient:{</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="6"><Data ss:Type="String">number</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="6"><Data ss:Type="String">ID</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="6"><Data ss:Type="String">firstName</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="6"><Data ss:Type="String">middleName</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="6"><Data ss:Type="String">lastName</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="6"><Data ss:Type="String">gender</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="6"><Data ss:Type="String">age</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="6"><Data ss:Type="String">DOB:</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="5"><Data ss:Type="String">operator:{</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="6"><Data ss:Type="String">number</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="6"><Data ss:Type="String">ID:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">measurement:{</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="5"><Data ss:Type="String">header:{</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">diopterStep:{</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">unit</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">diopter unit (fixed value)</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">O</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">D</Data></Cell>
+    <Cell><Data ss:Type="String">Fixed value (JSON is always in dioptres) </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">value:</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Diopter unit increment</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">0.5 / 0.25 / 0.125 /…</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">axisStep:{</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">unit</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Cylinder axis unit (fixed value)</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">deg</Data></Cell>
+    <Cell><Data ss:Type="String">Fixed value (JSON is always in degree) </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">value:</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Cylinder axis unit increment</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">integer</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">nearDistance:{</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Working distance (ADD)</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">unit</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Working distance unitl</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">mm / cm / m / Feet /…</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">value:</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Working distance</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">nearDistance2:{</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Working distance (ADD2)</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">unit</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Working distance unitl</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">mm / cm / m / Feet/…</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">value:</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Working distance</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">prismDiopterStep:{</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">unit:</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Prism Diopter Step unit</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">pri</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s41"><Data ss:Type="String">We are waiting for the return of Haag-Streit in order to clearly define which units and measurement methods the phoropter must be able to receive and transmit</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">value:</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Prism Diopter Step </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">0.5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">prismMode:</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Prism mesurment Mode</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">UDIO (up, down, in, out)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">VD:{</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">unit</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Vertex distance unit (fixed value)</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">O</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">mm</Data></Cell>
+    <Cell><Data ss:Type="String">Fixed value (JSON is always in mm) </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">value:</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Vertex distance value</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">visualAcuityUnit:</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Visual acuity</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Snellen, Logarithmic, Decimal</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="5"><Data ss:Type="String">data:{</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">R:{</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Right-eye measurement value</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">－</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">sphere</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Spherical power </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">-3.00 /null</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">cylinder</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Cylindrical power</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">-1.00 / null</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">axis</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Cylinder axis </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">180 / null</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">ADD</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">1st add power </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">1.00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">ADD2</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">2nd add power </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">1.50</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">nearSphere</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">1st near power </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">-2.00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">nearSphere2</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">2nd near power </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">-1.50</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">VertPrism:{</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8"><Data ss:Type="String">diopter</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Horizontal prism power </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">0.50</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="8"><Data ss:Type="String">base:</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">(base Up and base Down only)</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">U or D</Data></Cell>
+    <Cell><Data ss:Type="String">This field is mandatory if a Horizontal prism power is entered</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">HorzPrism:{</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8"><Data ss:Type="String">diopter</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Vertical prism power ( △ )</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">0.00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="8"><Data ss:Type="String">base:</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">(base in and base out only)</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">I or O</Data></Cell>
+    <Cell><Data ss:Type="String">This field is mandatory if a Vertical prism power is entered</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">accommodation</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s22"><Data ss:Type="String">Accommodation</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">3.00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">VSC</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">vision without correction</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">VCC</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">vision with correction</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">VSC-N</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">vision without correction near</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">VCC-N</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">vision with correction near</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">VSC-N2</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">vision without correction near 2</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">VCC-N2</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">vision with correction near 2</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">PD</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Pupillary distance right in mm</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s18"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">30.5</Data></Cell>
+    <Cell><Data ss:Type="String">Values always in mm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">L:{</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Left-eye measurement value (same as right-eye)</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">－</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">sphere</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">cylinder</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">axis</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">ADD</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">ADD2</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">nearSphere</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">nearSphere2</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">prism</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">prismBase</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">prismX:{</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="8"><Data ss:Type="String">diopter</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="8"><Data ss:Type="String">base:</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">prismY:{</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="8"><Data ss:Type="String">diopter</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="8"><Data ss:Type="String">base:</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">accommodation</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">VSC</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">VCC</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">VSC-N</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">VCC-N</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">VSC-N2</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">VCC-N2</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">PD:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">B:{</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Binocular measurement value</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">－</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">divergence:{</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8"><Data ss:Type="String">blurPoint</Data></Cell>
+    <Cell ss:StyleID="s17"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Arial MT"
+       x:Family="Swiss" html:Size="8.5">Blur (Prism)</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s18"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Comic Sans MS"
+       x:Family="Script" html:Size="7.5">Δ</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s17"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Arial MT"
+       x:Family="Swiss" html:Size="8.5">4.00&#10;-2.40</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="8"><Data ss:Type="String">breakPoint</Data></Cell>
+    <Cell ss:StyleID="s17"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Arial MT"
+       x:Family="Swiss" html:Size="8.5">Break (Prism)</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s18"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Comic Sans MS"
+       x:Family="Script" html:Size="7.5">Δ</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8"><Data ss:Type="String">recoveryPoint</Data></Cell>
+    <Cell ss:StyleID="s17"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Arial MT"
+       x:Family="Swiss" html:Size="8.5">Recovery (Prism)</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s18"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Comic Sans MS"
+       x:Family="Script" html:Size="7.5">Δ</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s17"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Arial MT"
+       x:Family="Swiss" html:Size="8.5">+2.40&#10;+0.00&#10;-1.20</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">convergence:{</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8"><Data ss:Type="String">blurPoint</Data></Cell>
+    <Cell ss:StyleID="s17"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Arial MT"
+       x:Family="Swiss" html:Size="8.5">Blur (Prism)</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s18"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Comic Sans MS"
+       x:Family="Script" html:Size="7.5">Δ</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s17"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Arial MT"
+       x:Family="Swiss" html:Size="8.5">4.00&#10;-2.40</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="8"><Data ss:Type="String">breakPoint</Data></Cell>
+    <Cell ss:StyleID="s17"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Arial MT"
+       x:Family="Swiss" html:Size="8.5">Break (Prism)</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s18"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Comic Sans MS"
+       x:Family="Script" html:Size="7.5">Δ</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8"><Data ss:Type="String">recoveryPoint</Data></Cell>
+    <Cell ss:StyleID="s17"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Arial MT"
+       x:Family="Swiss" html:Size="8.5">Recovery (Prism)</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s18"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Comic Sans MS"
+       x:Family="Script" html:Size="7.5">Δ</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s17"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Arial MT"
+       x:Family="Swiss" html:Size="8.5">+2.40&#10;+0.00&#10;-1.20</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">NRA</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Negative Relative Accommodation</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s18"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Comic Sans MS"
+       x:Family="Script" html:Size="7.5">Δ</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">PRA</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Positive Relative Accommodation</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s18"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Comic Sans MS"
+       x:Family="Script" html:Size="7.5">Δ</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">VSC</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">vision without correction</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">VCC</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">vision with correction</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">VSC-N</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">vision without correction near</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">VCC-N</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">vision with correction near</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">VSC-N2</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">vision without correction near 2</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">VCC-N2</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">vision with correction near 2</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">PD</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Pupillary distance total</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s18"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">63.00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">PHDelta</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Pupillary hight delta</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">3.5</Data></Cell>
+   </Row>
+   <Row ss:Index="278">
+    <Cell ss:Index="3"><Data ss:Type="String">RT:{</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">common:{</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Same as AR</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="5"><Data ss:Type="String">company</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="5"><Data ss:Type="String">hostname</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="5"><Data ss:Type="String">modelName</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="5"><Data ss:Type="String">machineNo</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="5"><Data ss:Type="String">ROMVersion</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="5"><Data ss:Type="String">sourceToken</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="5"><Data ss:Type="String">version</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="5"><Data ss:Type="String">date</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="5"><Data ss:Type="String">time</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="5"><Data ss:Type="String">inputVector</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="5"><Data ss:Type="String">patient:{</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="6"><Data ss:Type="String">number</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="6"><Data ss:Type="String">ID</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="6"><Data ss:Type="String">firstName</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="6"><Data ss:Type="String">middleName</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="6"><Data ss:Type="String">lastName</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="6"><Data ss:Type="String">gender</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="6"><Data ss:Type="String">age</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="6"><Data ss:Type="String">DOB:</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="5"><Data ss:Type="String">operator:{</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="6"><Data ss:Type="String">number</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="6"><Data ss:Type="String">ID:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">measurement:{</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="5"><Data ss:Type="String">header:{</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">diopterStep:{</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">unit</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">diopter unit (fixed value)</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">O</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">D</Data></Cell>
+    <Cell><Data ss:Type="String">Fixed value (JSON is always in dioptres) </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">value:</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Diopter unit increment</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">0.5 / 0.25 / 0.125 /…</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">axisStep:{</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">unit</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Cylinder axis unit (fixed value)</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">deg</Data></Cell>
+    <Cell><Data ss:Type="String">Fixed value (JSON is always in degree) </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">value:</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Cylinder axis unit increment</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">integer</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">nearDistance:{</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Working distance (ADD)</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">unit</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Working distance unitl</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">mm / cm / m / Feet /…</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">value:</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Working distance</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">nearDistance2:{</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Working distance (ADD2)</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">unit</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Working distance unitl</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">mm / cm / m / Feet/…</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">value:</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Working distance</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">prismDiopterStep:{</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="7"><Data ss:Type="String">unit:</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Prism Diopter Step unit</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">pri</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s41"><Data ss:Type="String">We are waiting for the return of Haag-Streit in order to clearly define which units and measurement methods the phoropter must be able to receive and transmit</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">value:</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Prism Diopter Step </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">0.5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">prismMode:</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Prism mesurment Mode</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">UDIO (up, down, in, out)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">VD:{</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">unit</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Vertex distance unit (fixed value)</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">O</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">mm</Data></Cell>
+    <Cell><Data ss:Type="String">Fixed value (JSON is always in mm) </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">value:</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Vertex distance value</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">visualAcuityUnit:</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Visual acuity</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Snellen, Logarithmic, Decimal</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="5"><Data ss:Type="String">data:{</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">R:{</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Right-eye measurement value</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">－</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">sphere</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Spherical power </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">-3.00 /null</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">cylinder</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Cylindrical power</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">-1.00 / null</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">axis</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Cylinder axis </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">180 / null</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">ADD</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">1st add power </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">1.00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">ADD2</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">2nd add power </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">1.50</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">nearSphere</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">1st near power </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">-2.00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">nearSphere2</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">2nd near power </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">-1.50</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">VertPrism:{</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8"><Data ss:Type="String">diopter</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Horizontal prism power </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">0.50</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="8"><Data ss:Type="String">base:</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">(base Up and base Down only)</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">U or D</Data></Cell>
+    <Cell><Data ss:Type="String">This field is mandatory if a Horizontal prism power is entered</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">HorzPrism:{</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8"><Data ss:Type="String">diopter</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Vertical prism power ( △ )</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">0.00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="8"><Data ss:Type="String">base:</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">(base in and base out only)</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s20"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">I or O</Data></Cell>
+    <Cell><Data ss:Type="String">This field is mandatory if a Vertical prism power is entered</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">accommodation</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s22"><Data ss:Type="String">Accommodation</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">3.00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">VSC</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">vision without correction</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">VCC</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">vision with correction</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">VSC-N</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">vision without correction near</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">VCC-N</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">vision with correction near</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">VSC-N2</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">vision without correction near 2</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">VCC-N2</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">vision with correction near 2</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">PD</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Pupillary distance right in mm</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s18"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">30.5</Data></Cell>
+    <Cell><Data ss:Type="String">Values always in mm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">L:{</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Left-eye measurement value (same as right-eye)</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">－</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">sphere</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">cylinder</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">axis</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">ADD</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">ADD2</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">nearSphere</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">nearSphere2</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">prism</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">prismBase</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">prismX:{</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="8"><Data ss:Type="String">diopter</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="8"><Data ss:Type="String">base:</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">prismY:{</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="8"><Data ss:Type="String">diopter</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="8"><Data ss:Type="String">base:</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">accommodation</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">VSC</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">VCC</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">VSC-N</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">VCC-N</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">VSC-N2</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">VCC-N2</Data></Cell>
+   </Row>
+   <Row ss:Hidden="1">
+    <Cell ss:Index="7"><Data ss:Type="String">PD</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">B:{</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Binocular measurement value</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">－</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">divergence:{</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8"><Data ss:Type="String">blurPoint</Data></Cell>
+    <Cell ss:StyleID="s17"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Arial MT"
+       x:Family="Swiss" html:Size="8.5">Blur (Prism)</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s18"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Comic Sans MS"
+       x:Family="Script" html:Size="7.5">Δ</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s17"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Arial MT"
+       x:Family="Swiss" html:Size="8.5">4.00&#10;-2.40</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="8"><Data ss:Type="String">breakPoint</Data></Cell>
+    <Cell ss:StyleID="s17"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Arial MT"
+       x:Family="Swiss" html:Size="8.5">Break (Prism)</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s18"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Comic Sans MS"
+       x:Family="Script" html:Size="7.5">Δ</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8"><Data ss:Type="String">recoveryPoint</Data></Cell>
+    <Cell ss:StyleID="s17"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Arial MT"
+       x:Family="Swiss" html:Size="8.5">Recovery (Prism)</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s18"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Comic Sans MS"
+       x:Family="Script" html:Size="7.5">Δ</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s17"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Arial MT"
+       x:Family="Swiss" html:Size="8.5">+2.40&#10;+0.00&#10;-1.20</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">convergence:{</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8"><Data ss:Type="String">blurPoint</Data></Cell>
+    <Cell ss:StyleID="s17"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Arial MT"
+       x:Family="Swiss" html:Size="8.5">Blur (Prism)</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s18"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Comic Sans MS"
+       x:Family="Script" html:Size="7.5">Δ</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s17"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Arial MT"
+       x:Family="Swiss" html:Size="8.5">4.00&#10;-2.40</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="8"><Data ss:Type="String">breakPoint</Data></Cell>
+    <Cell ss:StyleID="s17"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Arial MT"
+       x:Family="Swiss" html:Size="8.5">Break (Prism)</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s18"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Comic Sans MS"
+       x:Family="Script" html:Size="7.5">Δ</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8"><Data ss:Type="String">recoveryPoint</Data></Cell>
+    <Cell ss:StyleID="s17"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Arial MT"
+       x:Family="Swiss" html:Size="8.5">Recovery (Prism)</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s18"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Comic Sans MS"
+       x:Family="Script" html:Size="7.5">Δ</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s17"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Arial MT"
+       x:Family="Swiss" html:Size="8.5">+2.40&#10;+0.00&#10;-1.20</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">NRA</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Negative Relative Accommodation</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s18"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Comic Sans MS"
+       x:Family="Script" html:Size="7.5">Δ</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">PRA</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Positive Relative Accommodation</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s18"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Comic Sans MS"
+       x:Family="Script" html:Size="7.5">Δ</Font></ss:Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">VSC</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">vision without correction</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">VCC</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">vision with correction</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">VSC-N</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">vision without correction near</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">VCC-N</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">vision with correction near</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">VSC-N2</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">vision without correction near 2</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">VCC-N2</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">vision with correction near 2</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">PD</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Pupillary distance total</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s18"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40">Δ</ss:Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">63.00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7"><Data ss:Type="String">PHDelta</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Pupillary hight delta</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">3.5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="s34"/>
+    <Cell ss:StyleID="s34"/>
+    <Cell ss:StyleID="s35"/>
+    <Cell ss:StyleID="s36"/>
+   </Row>
+   <Row ss:Index="392" ss:AutoFitHeight="0" ss:Height="46">
+    <Cell ss:Index="3"><Data ss:Type="String">PID:{</Data></Cell>
+    <Cell ss:Index="9" ss:MergeAcross="3" ss:StyleID="s42"><Data ss:Type="String">The purpose of this dataset is to transmit patient information without measurement data. If a PID dataset is present in a JSON the patient data contained in this one takes over the patient data of the other dataset</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">common:{</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="5"><Data ss:Type="String">sourceToken</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Source Token</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="5"><Data ss:Type="String">version</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Software Version</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="5"><Data ss:Type="String">date</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Date code (YYYY-MM-DD) ISO 8601 UTC </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">O</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">2022-09-30</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="5"><Data ss:Type="String">time</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Time (H/M/S) ISO 8601 UTC </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">O</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">15/45/10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="5"><Data ss:Type="String">inputVector</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Input Vector</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">RS-232 / SMB-TXT / SMB-XML /EMR ..</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="5"><Data ss:Type="String">patient:{</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Patient</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Patient No.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">integer</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">123456789</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">ID</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Patient ID </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">P123456789012</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">firstName</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Patient’s first name</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Jon</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">middleName</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Patient’s middle name</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Adam</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">lastName</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Patient’s last name</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Smith</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">gender</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Patient’s sex</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Male</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">age</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Patient’s age</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">integer</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">40</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">DOB:</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Patient’s date of birth (YYYY-MM-DD) ISO 8601 UTC </Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">1982-09-30</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="5"><Data ss:Type="String">operator:{</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Operator info</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">number</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Operator No.</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">integer</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">123456789</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">ID:</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s17"><Data ss:Type="String">Operator ID</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Δ</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">abcd123456789</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <VerticalResolution>0</VerticalResolution>
+   </Print>
+   <Zoom>137</Zoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>10</ActiveRow>
+     <ActiveCol>7</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
