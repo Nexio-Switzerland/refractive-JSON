@@ -6,7 +6,7 @@
             "jsonStylesheetType":"nexio"
         },
         "entryPoint":"",
-        "endPoint":"",
+        "endPoint":["","","",""],
         "dataset":	[
             {
                 "AR":{
