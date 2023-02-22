@@ -51,19 +51,19 @@
                            {
                               "01":{
                                  "thickness":null,
-                                 "lowConfidenceIndex":null
+                                 "lowConfidenceIndex":""
                               }
                            },
                            {
                               "02":{
                                  "thickness":null,
-                                 "lowConfidenceIndex":null
+                                 "lowConfidenceIndex":""
                               }
                            },
                            {
                               "03":{
                                  "thickness":null,
-                                 "lowConfidenceIndex":null
+                                 "lowConfidenceIndex":""
                               }
                            }
                         ],
@@ -75,19 +75,19 @@
                         {
                            "01":{
                               "thickness":null,
-                              "lowConfidenceIndex":null
+                              "lowConfidenceIndex":""
                            }
                         },
                         {
                            "02":{
                               "thickness":null,
-                              "lowConfidenceIndex":null
+                              "lowConfidenceIndex":""
                            }
                         },
                         {
                            "03":{
                               "thickness":null,
-                              "lowConfidenceIndex":null
+                              "lowConfidenceIndex":""
                            }
                         }
                      ],
