@@ -68,30 +68,30 @@
                            }
                         ],
                         "averageThickness":null
+                     },
+                     "L":{
+                        "PACHY":[
+                           {
+                              "01":{
+                                 "thickness":null,
+                                 "lowConfidenceIndex":""
+                              }
+                           },
+                           {
+                              "02":{
+                                 "thickness":null,
+                                 "lowConfidenceIndex":""
+                              }
+                           },
+                           {
+                              "03":{
+                                 "thickness":null,
+                                 "lowConfidenceIndex":""
+                              }
+                           }
+                        ],
+                        "averageThickness":null
                      }
-                  },
-                  "L":{
-                     "PACHY":[
-                        {
-                           "01":{
-                              "thickness":null,
-                              "lowConfidenceIndex":""
-                           }
-                        },
-                        {
-                           "02":{
-                              "thickness":null,
-                              "lowConfidenceIndex":""
-                           }
-                        },
-                        {
-                           "03":{
-                              "thickness":null,
-                              "lowConfidenceIndex":""
-                           }
-                        }
-                     ],
-                     "averageThickness":null
                   }
                }
             }
