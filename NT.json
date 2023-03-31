@@ -76,14 +76,8 @@
                                     "param1":null,
                                     "param2":null,
                                     "CCT":null,
-                                    "measured":{
-                                        "valuemmHg":null,
-                                        "valuekPa":null
-                                    },
-                                    "corrected":{
-                                        "valuemmHg":null,
-                                        "valuekPa":null
-                                    }
+                                    "valuemmHg":null,
+                                    "valuekPa":null
                                 }
                             },
                             "L":{
@@ -112,14 +106,9 @@
                                     "param1":null,
                                     "param2":null,
                                     "CCT":null,
-                                    "measured":{
-                                        "valuemmHg":null,
-                                        "valuekPa":null
-                                    },
-                                    "corrected":{
-                                        "valuemmHg":null,
-                                        "valuekPa":null
-                                    }
+                                    "valuemmHg":null,
+                                    "valuekPa":null
+
                                 }
                             }
                         }
