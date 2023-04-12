@@ -1,0 +1,700 @@
+{
+    "nx-data": {
+        "header": {
+            "jsonVersion": "0.1.3",
+            "encoding": "UTF-8",
+            "jsonStylesheetType": "nexio"
+        },
+        "entryPoint": "",
+        "endPoint": [
+            "",
+            "",
+            ""
+        ],
+        "dataset": {
+            "AR": {
+                "common": {
+                    "company": "NIDEK",
+                    "hostname": "",
+                    "modelName": "TONOREF3",
+                    "machineNo": "",
+                    "ROMVersion": "",
+                    "sourceToken": "",
+                    "version": "",
+                    "date": "2023-03-19",
+                    "time": "01/47/00",
+                    "inputVector": "",
+                    "patient": {
+                        "number": 2,
+                        "ID": "",
+                        "firstName": "",
+                        "middleName": "",
+                        "lastName": "",
+                        "gender": "",
+                        "age": null,
+                        "DOB": ""
+                    },
+                    "operator": {
+                        "number": null,
+                        "ID": ""
+                    }
+                },
+                "measurement": {
+                    "header": {
+                        "diopterStep": {
+                            "unit": "D",
+                            "value": null
+                        },
+                        "axisStep": {
+                            "unit": "deg",
+                            "value": null
+                        },
+                        "nearDistance": {
+                            "unit": "",
+                            "value": 40
+                        },
+                        "nearDistance2": {
+                            "unit": "",
+                            "value": null
+                        },
+                        "VD": {
+                            "unit": "mm",
+                            "value": 12.0
+                        },
+                        "visualAcuityUnit": ""
+                    },
+                    "data": {
+                        "R": {
+                            "sphere": 0.0,
+                            "cylinder": -1.0,
+                            "axis": 174,
+                            "accommodation": null,
+                            "VSC": "",
+                            "VCC": "",
+                            "VSC-N": "",
+                            "VCC-N": "",
+                            "VSC-N2": "",
+                            "VCC-N2": "",
+                            "PD": null
+                        },
+                        "L": {
+                            "sphere": -0.25,
+                            "cylinder": -0.75,
+                            "axis": 178,
+                            "accommodation": null,
+                            "VSC": "",
+                            "VCC": "",
+                            "VSC-N": "",
+                            "VCC-N": "",
+                            "VSC-N2": "",
+                            "VCC-N2": "",
+                            "PD": null
+                        },
+                        "B": {
+                            "VSC": "",
+                            "VCC": "",
+                            "VSC-N": "",
+                            "VCC-N": "",
+                            "VSC-N2": "",
+                            "VCC-N2": "",
+                            "PD": 66,
+                            "PHDelta": null
+                        }
+                    }
+                }
+            },
+            "KM": {
+                "common": {
+                    "company": "NIDEK",
+                    "hostname": "",
+                    "modelName": "TONOREF3",
+                    "machineNo": "",
+                    "ROMVersion": "",
+                    "sourceToken": "",
+                    "version": "",
+                    "date": "2023-03-19",
+                    "time": "01/47/00",
+                    "inputVector": "",
+                    "patient": {
+                        "number": 2,
+                        "ID": "",
+                        "firstName": "",
+                        "middleName": "",
+                        "lastName": "",
+                        "gender": "",
+                        "age": null,
+                        "DOB": ""
+                    },
+                    "operator": {
+                        "number": null,
+                        "ID": ""
+                    }
+                },
+                "measurement": {
+                    "header": {
+                        "diopterStep": {
+                            "unit": "D",
+                            "value": null
+                        },
+                        "axisStep": {
+                            "unit": "deg",
+                            "value": null
+                        },
+                        "refractiveIndex": null
+                    },
+                    "data": {
+                        "R": {
+                            "KMMedian": {
+                                "R1": {
+                                    "radius": 7.85,
+                                    "power": 43.0,
+                                    "axis": 172
+                                },
+                                "R2": {
+                                    "radius": 7.58,
+                                    "power": 44.5,
+                                    "axis": 82
+                                },
+                                "average": {
+                                    "radius": 7.72,
+                                    "power": 43.75
+                                },
+                                "KMCylinder": {
+                                    "power": -1.5,
+                                    "axis": 172
+                                }
+                            }
+                        },
+                        "L": {
+                            "KMMedian": {
+                                "R1": {
+                                    "radius": 7.81,
+                                    "power": 43.25,
+                                    "axis": 180
+                                },
+                                "R2": {
+                                    "radius": 7.58,
+                                    "power": 44.5,
+                                    "axis": 90
+                                },
+                                "average": {
+                                    "radius": 7.7,
+                                    "power": 43.75
+                                },
+                                "KMCylinder": {
+                                    "power": -1.25,
+                                    "axis": 180
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "NT": {
+                "common": {
+                    "company": "NIDEK",
+                    "hostname": "",
+                    "modelName": "TONOREF3",
+                    "machineNo": "",
+                    "ROMVersion": "",
+                    "sourceToken": "",
+                    "version": "",
+                    "date": "2023-03-19",
+                    "time": "01/47/00",
+                    "inputVector": "",
+                    "patient": {
+                        "number": 2,
+                        "ID": "",
+                        "firstName": "",
+                        "middleName": "",
+                        "lastName": "",
+                        "gender": "",
+                        "age": null,
+                        "DOB": ""
+                    },
+                    "operator": {
+                        "number": null,
+                        "ID": ""
+                    }
+                },
+                "measurement": {
+                    "header": {},
+                    "data": {
+                        "R": {
+                            "IOP": [
+                                {
+                                    "valuemmHg": 11,
+                                    "valuekPa": 1.5,
+                                    "lowConfidenceIndex": ""
+                                },
+                                {
+                                    "valuemmHg": 11,
+                                    "valuekPa": 1.5,
+                                    "lowConfidenceIndex": ""
+                                }
+                            ],
+                            "averageIOP": {
+                                "valuemmHg": 11.0,
+                                "valuekPa": 1.5
+                            },
+                            "correctedIOP": {
+                                "param1": null,
+                                "param2": null,
+                                "CCT": null,
+                                "measured": {
+                                    "valuemmHg": null,
+                                    "valuekPa": null
+                                },
+                                "corrected": {
+                                    "valuemmHg": null,
+                                    "valuekPa": null
+                                }
+                            }
+                        },
+                        "L": {
+                            "IOP": [
+                                {
+                                    "valuemmHg": 12,
+                                    "valuekPa": 1.6,
+                                    "lowConfidenceIndex": ""
+                                },
+                                {
+                                    "valuemmHg": 11,
+                                    "valuekPa": 1.5,
+                                    "lowConfidenceIndex": ""
+                                },
+                                {
+                                    "valuemmHg": 10,
+                                    "valuekPa": 1.3,
+                                    "lowConfidenceIndex": ""
+                                }
+                            ],
+                            "averageIOP": {
+                                "valuemmHg": 11.0,
+                                "valuekPa": 1.47
+                            },
+                            "correctedIOP": {
+                                "param1": null,
+                                "param2": null,
+                                "CCT": null,
+                                "measured": {
+                                    "valuemmHg": null,
+                                    "valuekPa": null
+                                },
+                                "corrected": {
+                                    "valuemmHg": null,
+                                    "valuekPa": null
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "PM": {
+                "common": {
+                    "company": "NIDEK",
+                    "hostname": "",
+                    "modelName": "TONOREF3",
+                    "machineNo": "",
+                    "ROMVersion": "",
+                    "sourceToken": "",
+                    "version": "",
+                    "date": "2023-03-19",
+                    "time": "01/47/00",
+                    "inputVector": "",
+                    "patient": {
+                        "number": 2,
+                        "ID": "",
+                        "firstName": "",
+                        "middleName": "",
+                        "lastName": "",
+                        "gender": "",
+                        "age": null,
+                        "DOB": ""
+                    },
+                    "operator": {
+                        "number": null,
+                        "ID": ""
+                    }
+                },
+                "measurement": {
+                    "header": {},
+                    "data": {
+                        "R": {
+                            "PACHY": [
+                                {
+                                    "thickness": 542,
+                                    "lowConfidenceIndex": ""
+                                }
+                            ],
+                            "averageThickness": 542
+                        },
+                        "L": {
+                            "PACHY": [
+                                {
+                                    "thickness": 544,
+                                    "lowConfidenceIndex": ""
+                                }
+                            ],
+                            "averageThickness": 544
+                        }
+                    }
+                }
+            },
+            "RT":{
+                "common":{
+                    "company":"Haag-Streit",
+                    "hostname":"Test",
+                    "modelName":"",
+                    "machineNo":"",
+                    "ROMVersion":"",
+                    "sourceToken":"",
+                    "version":"",
+                    "date":"2023-01-28",
+                    "time":"16:02:10",
+                    "inputVector":"json",
+                    "patient":{
+                        "number":null,
+                        "ID":"123456",
+                        "firstName":"Jon",
+                        "middleName":"",
+                        "lastName":"Smith",
+                        "gender":"Male",
+                        "age":35,
+                        "DOB":"1987-02-19"
+                    },
+                    "operator":{
+                        "number":null,
+                        "ID":"654321"
+                    }
+                },
+                "measurement":{
+                    "header":{
+                        "diopterStep":{
+                            "unit":"D",
+                            "value":0.25
+                        },
+                        "axisStep":{
+                            "unit":"deg",
+                            "value":120
+                        },
+                        "nearDistance":{
+                            "unit":"cm",
+                            "value":40
+                        },
+                        "nearDistance2":{
+                            "unit":"cm",
+                            "value":60
+                        },
+                        "prismDiopterStep":{
+                            "unit":"pri",
+                            "value":0.5
+                        },
+                        "prismMode":"UDIO",
+                        "VD":{
+                            "unit":"mm",
+                            "value":16
+                        },
+                        "visualAcuityUnit":"Decimal"
+                    },
+                    "data":{
+                        "R":{
+                            "sphere":3.75,
+                            "cylinder":-2.50,
+                            "axis":47,
+                            "ADD":2.000,
+                            "ADD2":null,
+                            "nearSphere":4.50,
+                            "nearSphere2":null,
+                            "vertPrism":{
+                                "diopter":1,
+                                "base":"U"
+                            },
+                            "horzPrism":{
+                                "diopter":1,
+                                "base":"I"
+                            },
+                            "accommodation":2.25,
+                            "VSC":"0.8",
+                            "VCC":"1.0",
+                            "VSC-N":"0.6",
+                            "VCC-N":"0.8",
+                            "VSC-N2":"",
+                            "VCC-N2":"",
+                            "PD":31.50
+                        },
+                        "L":{
+                            "sphere":-1.50,
+                            "cylinder":-3.25,
+                            "axis":162,
+                            "ADD":2.00,
+                            "ADD2":null,
+                            "nearSphere":-0.50,
+                            "nearSphere2":null,
+                            "vertPrism":{
+                                "diopter":2,
+                                "base":"D"
+                            },
+                            "horzPrism":{
+                                "diopter":2,
+                                "base":"O"
+                            },
+                            "accommodation":0.2,
+                            "VSC":"0.6",
+                            "VCC":"0.8",
+                            "VSC-N":"0.8",
+                            "VCC-N":"1.0",
+                            "VSC-N2":"",
+                            "VCC-N2":"",
+                            "PD":32.50
+                        },
+                        "B":{
+                            "divergence":{
+                                "blurPoint":1.50,
+                                "breakPoint":null,
+                                "recoveryPoint":null
+                            },
+                            "convergence":{
+                                "blurPoint":null,
+                                "breakPoint":null,
+                                "recoveryPoint":null
+                            },
+                            "NRA":"",
+                            "PRA":"",
+                            "VSC":"0.7",
+                            "VCC":"0.9",
+                            "VSC-N":"1.1",
+                            "VCC-N":"1.3",
+                            "VSC-N2":"",
+                            "VCC-N2":"",
+                            "PD":64,
+                            "PHDelta":null
+                        }
+                    }
+                }
+            },
+
+            "LM":{
+                "common": {
+                    "company": "NIDEK",
+                    "hostname": "",
+                    "modelName": "TONOREF3",
+                    "machineNo": "",
+                    "ROMVersion": "",
+                    "sourceToken": "",
+                    "version": "",
+                    "date": "2023-03-19",
+                    "time": "01/47/00",
+                    "inputVector": "",
+                    "patient": {
+                        "number": 2,
+                        "ID": "",
+                        "firstName": "",
+                        "middleName": "",
+                        "lastName": "",
+                        "gender": "",
+                        "age": null,
+                        "DOB": ""
+                    },
+                    "operator": {
+                        "number": null,
+                        "ID": ""
+                    }
+                },
+                "measurement":{
+                    "header":{
+                        "diopterStep":{
+                            "unit":"D",
+                            "value":null
+                        },
+                        "axisStep":{
+                            "unit":"deg",
+                            "value":null
+                        },
+                        "prismDiopterStep":{
+                            "unit":"",
+                            "value":null
+                        },
+                        "prismMode":""
+                    },
+                    "data":{
+                        "R":{
+                            "sphere":2.5,
+                            "cylinder":-2,
+                            "axis":120,
+                            "SE":null,
+                            "ADD":1.5,
+                            "ADD2":null,
+                            "nearSphere":4,
+                            "nearSphere2":null,
+                            "vertPrism":{
+                                "diopter":1,
+                                "base":"U"
+                            },
+                            "horzPrism":{
+                                "diopter":1,
+                                "base":"I"
+                            },
+                            "PD":31
+                        },
+                        "L":{
+                            "sphere":null,
+                            "cylinder":null,
+                            "axis":null,
+                            "SE":null,
+                            "ADD":null,
+                            "ADD2":null,
+                            "nearSphere":null,
+                            "nearSphere2":null,
+                            "vertPrism":{
+                                "diopter":2,
+                                "base":"D"
+                            },
+                            "horzPrism":{
+                                "diopter":2,
+                                "base":"O"
+                            },
+                            "PD":32
+                        },
+                        "B":{
+                            "PD":63,
+                            "PHDelta":null
+                        }
+                    }
+                }
+            }
+        },
+        "CO":{
+            "common":{
+                "company":"Haag-Streit",
+                "hostname":"Test",
+                "modelName":"",
+                "machineNo":"",
+                "ROMVersion":"",
+                "sourceToken":"",
+                "version":"",
+                "date":"2023-01-28",
+                "time":"16:02:10",
+                "inputVector":"json",
+                "patient":{
+                    "number":null,
+                    "ID":"123456",
+                    "firstName":"Jon",
+                    "middleName":"",
+                    "lastName":"Smith",
+                    "gender":"Male",
+                    "age":35,
+                    "DOB":"1987-02-19"
+                },
+                "operator":{
+                    "number":null,
+                    "ID":"654321"
+                }
+            },
+            "measurement":{
+                "header":{
+                    "diopterStep":{
+                        "unit":"D",
+                        "value":0.25
+                    },
+                    "axisStep":{
+                        "unit":"deg",
+                        "value":120
+                    },
+                    "nearDistance":{
+                        "unit":"cm",
+                        "value":40
+                    },
+                    "nearDistance2":{
+                        "unit":"cm",
+                        "value":60
+                    },
+                    "prismDiopterStep":{
+                        "unit":"pri",
+                        "value":0.5
+                    },
+                    "prismMode":"UDIO",
+                    "VD":{
+                        "unit":"mm",
+                        "value":16
+                    },
+                    "visualAcuityUnit":"Decimal"
+                },
+                "data":{
+                    "R":{
+                        "sphere":3.75,
+                        "cylinder":-2.50,
+                        "axis":47,
+                        "ADD":2.000,
+                        "ADD2":null,
+                        "nearSphere":4.50,
+                        "nearSphere2":null,
+                        "vertPrism":{
+                            "diopter":1,
+                            "base":"U"
+                        },
+                        "horzPrism":{
+                            "diopter":1,
+                            "base":"I"
+                        },
+                        "accommodation":2.25,
+                        "VSC":"0.8",
+                        "VCC":"1.0",
+                        "VSC-N":"0.6",
+                        "VCC-N":"0.8",
+                        "VSC-N2":"",
+                        "VCC-N2":"",
+                        "PD":31.50
+                    },
+                    "L":{
+                        "sphere":-1.50,
+                        "cylinder":-3.25,
+                        "axis":162,
+                        "ADD":2.00,
+                        "ADD2":null,
+                        "nearSphere":-0.50,
+                        "nearSphere2":null,
+                        "vertPrism":{
+                            "diopter":2,
+                            "base":"D"
+                        },
+                        "horzPrism":{
+                            "diopter":2,
+                            "base":"O"
+                        },
+                        "accommodation":0.2,
+                        "VSC":"0.6",
+                        "VCC":"0.8",
+                        "VSC-N":"0.8",
+                        "VCC-N":"1.0",
+                        "VSC-N2":"",
+                        "VCC-N2":"",
+                        "PD":32.50
+                    },
+                    "B":{
+                        "divergence":{
+                            "blurPoint":1.50,
+                            "breakPoint":null,
+                            "recoveryPoint":null
+                        },
+                        "convergence":{
+                            "blurPoint":null,
+                            "breakPoint":null,
+                            "recoveryPoint":null
+                        },
+                        "NRA":"",
+                        "PRA":"",
+                        "VSC":"0.7",
+                        "VCC":"0.9",
+                        "VSC-N":"1.1",
+                        "VCC-N":"1.3",
+                        "VSC-N2":"",
+                        "VCC-N2":"",
+                        "PD":64,
+                        "PHDelta":null
+                    }
+                }
+            }
+        }
+    }
+}
