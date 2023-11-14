@@ -24,7 +24,12 @@
                             "lastName":"",
                             "gender":"",
                             "age":null,
-                            "DOB":""
+                            "DOB":"",
+                            "cadaNumber": null,
+                            "languages": [
+                                "eng",
+                                "fra"
+                            ]
                         },
                         "operator":{
                             "number":null,
