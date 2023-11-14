@@ -26,6 +26,8 @@
                             "age":null,
                             "DOB":"",
                             "cadaNumber": null,
+                            "addresses": [],
+                            "phones": [],
                             "languages": [
                                 "eng",
                                 "fra"
