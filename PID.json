@@ -29,7 +29,13 @@
                         "operator":{
                             "number":null,
                             "ID":""
-                        }
+                        },
+                        "files":[
+                            { "fileName": "",
+                              "contentType": "",
+                              "contentFormat": "",
+                              "contents": ""
+                        ]
                     }
                 }
             }
