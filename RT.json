@@ -127,8 +127,8 @@
                                     "breakPoint":null,
                                     "recoveryPoint":null
                                 },
-                                "NRA":"",
-                                "PRA":"",
+                                "NRA":null,
+                                "PRA":null,
                                 "VSC":"",
                                 "VCC":"",
                                 "VSC-N":"",
