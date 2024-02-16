@@ -472,8 +472,8 @@
                                     "breakPoint":null,
                                     "recoveryPoint":null
                                 },
-                                "NRA":"",
-                                "PRA":"",
+                                "NRA":null,
+                                "PRA":null,
                                 "VSC":"0.7",
                                 "VCC":"0.9",
                                 "VSC-N":"1.1",
@@ -697,8 +697,8 @@
                                     "breakPoint":null,
                                     "recoveryPoint":null
                                 },
-                                "NRA":"",
-                                "PRA":"",
+                                "NRA":null,
+                                "PRA":null,
                                 "VSC":"0.7",
                                 "VCC":"0.9",
                                 "VSC-N":"1.1",
